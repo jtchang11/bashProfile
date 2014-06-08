@@ -6,6 +6,7 @@ alias l="ls -lhFG --color=always"
 alias ll="ls -alhFG --color=always"
 alias llr="ls -alhFGrt --color=always"
 alias ls="ls --color=always"
+alias sl="ls -lhFG --color=always"
 alias mkdir="mkdir -p"
 alias pd="pushd"
 alias path='echo -e ${PATH//:/\\n}'
