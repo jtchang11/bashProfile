@@ -1,0 +1,23 @@
+#######################
+# ##### ALIASES ##### #
+#######################
+
+alias l="ls -lhFG --color=always"
+alias ll="ls -alhFG --color=always"
+alias llr="ls -alhFGrt --color=always"
+alias ls="ls --color=always"
+alias mkdir="mkdir -p"
+alias pd="pushd"
+alias path='echo -e ${PATH//:/\\n}'
+alias qs="qstat -a -u $USER -n"
+alias du="du -h"
+
+# joey's additional aliases
+alias pwdc='pwd | head -c -1 | xsel -i -b'
+alias garibaldi='ssh -Y jhdavis@garibaldi.scripps.edu'
+alias jchao='ssh -Y jhdavis@jchao.scripps.edu'
+alias lwc='ls -l | wc -l'
+alias masse='python ~/scripts/python/tools/masse/masse.py &'
+alias ipynbt='cd ~/scripts/python/iPyNBs/ && ipython notebook --pylab inline &'
+alias ipynb='ipython notebook --pylab=inline &'
+alias vi='vim'
